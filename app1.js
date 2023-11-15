@@ -34,7 +34,7 @@ const updateMessageSender = (name) => {
   chatInput.placeholder = `Type here, ${name}...`
 
   if (name === 'Harshad') {
-    profilepic.src = 'Harshad.jpg'
+    profilepic.src = '	https://harshaddesai04.github.io/Chat-App/Harshad.jpg' //harshad.jpg
     HarshadSelectorBtn.classList.add('active-person')
     ShubhamSelectorBtn.classList.remove('active-person')
   }
