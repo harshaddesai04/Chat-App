@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Person selector: this contains buttons for user to select whether to chat as Harshad or Shubham -->
+    <div class="person-selector">
+      <button  class="button person-selector-button active-person " id="Harshad-selector">Harshad</button>
+      <button class="button person-selector-button" id="Shubham-selector">Shubham</button> 
+    </div>
+    <div class="chat-container">
+      
+      
+      <h2 class="chat-header"> <img  id="profilepic"  class="responsive" src="Harshad.jpg" alt="" > Harshad chatting...</h2>
+      
+      
+
+      <div class="chat-messages">
+        <div class="message blue-bg">
+          <div class="message-sender"></div>
+          <div class="message-text">Hi Shubham Dada</div>
+          <div class="message-timestamp">10:35</div>
+        </div>
+        <div class="message gray-bg">
+          <div class="message-sender"></div>
+          <div class="message-text">Hi Harshu</div>
+          <div class="message-timestamp">10:36</div>
+        </div>
+      </div>
+
+      <form class="chat-input-form">
+        <input type="text" class="chat-input" required placeholder="Type here, Harshad..." />
+        <button type="submit" class="button send-button">Send</button>
+      </form>
+      <button class="button clear-chat-button">Clear Chat</button>
+    </div>
+
+    <script src="app1.js"></script>
+  </body>
+</html>
